@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EmptyLayout">
+        <attr name="background_color" format="color"/>
+    </declare-styleable>
+    <dimen name="actionBarSize">32dip</dimen>
+    <declare-styleable name="ArrowTextView">
+        <attr name="radius" format="dimension" />
+        <attr name="arrowWidth" format="dimension" />
+        <attr name="arrowHeight" format="dimension" />
+        <attr name="bg" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SuperEditText">
+
+        <attr name="ic_delete" format="reference" />
+        <attr name="delete_x" format="integer"  />
+        <attr name="delete_y" format="integer"  />
+        <attr name="delete_width" format="integer"  />
+        <attr name="delete_height" format="integer"  />
+
+        <attr name="ic_left_click" format="reference" />
+        <attr name="ic_left_unclick" format="reference" />
+        <attr name="left_x" format="integer"  />
+        <attr name="left_y" format="integer"  />
+        <attr name="left_width" format="integer"  />
+        <attr name="left_height" format="integer"  />
+
+        <attr name="lineColor_click" format="color"  />
+        <attr name="lineColor_unclick" format="color"  />
+        <attr name="linePosition" format="integer"  />
+
+        <attr name="cursor" format="reference" />
+
+    </declare-styleable>
+</resources>
